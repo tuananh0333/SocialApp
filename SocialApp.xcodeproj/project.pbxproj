@@ -14,6 +14,7 @@
 		596C902A1F498EF20050CF19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 596C90291F498EF20050CF19 /* Assets.xcassets */; };
 		596C902D1F498EF20050CF19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596C902B1F498EF20050CF19 /* LaunchScreen.storyboard */; };
 		596C90351F49D04A0050CF19 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596C90341F49D04A0050CF19 /* UserModel.swift */; };
+		59AB0A431F49E0A100752C34 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AB0A421F49E0A100752C34 /* UserInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		596C902C1F498EF20050CF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		596C902E1F498EF20050CF19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		596C90341F49D04A0050CF19 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		59AB0A421F49E0A100752C34 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		5F31E8AC3520F5119F765520 /* Pods-SocialApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialApp/Pods-SocialApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C432896E66093D6819980273 /* Pods-SocialApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialApp/Pods-SocialApp.release.xcconfig"; sourceTree = "<group>"; };
 		EA2DF8CE8F4B11E2CFEDAFC7 /* Pods_SocialApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				596C90221F498EF20050CF19 /* AppDelegate.swift */,
+				59AB0A421F49E0A100752C34 /* UserInfo.swift */,
 				596C90241F498EF20050CF19 /* ViewController.swift */,
 				596C90341F49D04A0050CF19 /* UserModel.swift */,
 				596C90261F498EF20050CF19 /* Main.storyboard */,
@@ -227,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59AB0A431F49E0A100752C34 /* UserInfo.swift in Sources */,
 				596C90251F498EF20050CF19 /* ViewController.swift in Sources */,
 				596C90351F49D04A0050CF19 /* UserModel.swift in Sources */,
 				596C90231F498EF20050CF19 /* AppDelegate.swift in Sources */,
